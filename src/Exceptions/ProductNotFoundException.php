@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Marascon\ShoppingCart\Cart\Exceptions;
+namespace Marascon\ShoppingCart\Exceptions;
 
 class ProductNotFoundException extends \Exception
 {

@@ -4,8 +4,8 @@ namespace Marascon\ShoppingCart\Tests\Cart;
 
 use Marascon\ShoppingCart\Cart\Cart;
 use Marascon\ShoppingCart\Cart\Discount\PercentageDiscount;
-use Marascon\ShoppingCart\Cart\Exceptions\InvalidDiscountException;
 use Marascon\ShoppingCart\Config\Config;
+use Marascon\ShoppingCart\Exceptions\InvalidDiscountException;
 use Marascon\ShoppingCart\Product\Product;
 use Marascon\ShoppingCart\Product\ProductCategory;
 use Marascon\ShoppingCart\Storage\SessionStorage;

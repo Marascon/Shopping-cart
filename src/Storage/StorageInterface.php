@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Marascon\ShoppingCart\Storage;
 
-use Marascon\ShoppingCart\Cart\Exceptions\StorageException;
+use Marascon\ShoppingCart\Exceptions\StorageException;
 
 interface StorageInterface
 {

@@ -3,7 +3,7 @@
 namespace Marascon\ShoppingCart\Tests\Storage;
 namespace Marascon\ShoppingCart\Tests\Storage;
 
-use Marascon\ShoppingCart\Cart\Exceptions\StorageException;
+use Marascon\ShoppingCart\Exceptions\StorageException;
 use Marascon\ShoppingCart\Storage\SessionStorage;
 use PHPUnit\Framework\TestCase;
 

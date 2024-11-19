@@ -2,7 +2,7 @@
 
 namespace Marascon\ShoppingCart\Tests\Cart\Exceptions;
 
-use Marascon\ShoppingCart\Cart\Exceptions\ProductNotFoundException;
+use Marascon\ShoppingCart\Exceptions\ProductNotFoundException;
 use PHPUnit\Framework\TestCase;
 
 class ProductNotFoundExceptionTest extends TestCase

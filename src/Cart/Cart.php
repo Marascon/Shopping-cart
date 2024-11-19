@@ -5,8 +5,8 @@ namespace Marascon\ShoppingCart\Cart;
 
 use Marascon\ShoppingCart\Cart\Discount\DiscountInterface;
 use Marascon\ShoppingCart\Config\Config;
+use Marascon\ShoppingCart\Exceptions\ProductNotFoundException;
 use Marascon\ShoppingCart\Product\Product;
-use Marascon\ShoppingCart\Cart\Exceptions\ProductNotFoundException;
 use Marascon\ShoppingCart\Storage\StorageInterface;
 
 class Cart

@@ -2,7 +2,7 @@
 
 namespace Marascon\ShoppingCart\Tests\Cart\Exceptions;
 
-use Marascon\ShoppingCart\Cart\Exceptions\InvalidDiscountException;
+use Marascon\ShoppingCart\Exceptions\InvalidDiscountException;
 use PHPUnit\Framework\TestCase;
 
 class InvalidDiscountExceptionTest extends TestCase

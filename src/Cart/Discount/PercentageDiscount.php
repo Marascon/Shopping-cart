@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Marascon\ShoppingCart\Cart\Discount;
 
-use Marascon\ShoppingCart\Cart\Exceptions\InvalidDiscountException;
+use Marascon\ShoppingCart\Exceptions\InvalidDiscountException;
 
 class PercentageDiscount implements DiscountInterface
 {

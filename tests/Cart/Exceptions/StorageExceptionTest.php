@@ -2,7 +2,7 @@
 
 namespace Marascon\ShoppingCart\Tests\Cart\Exceptions;
 
-use Marascon\ShoppingCart\Cart\Exceptions\StorageException;
+use Marascon\ShoppingCart\Exceptions\StorageException;
 use PHPUnit\Framework\TestCase;
 
 class StorageExceptionTest extends TestCase

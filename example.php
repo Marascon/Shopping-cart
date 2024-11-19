@@ -1,12 +1,12 @@
 <?php
 require_once 'vendor/autoload.php';
 
-use Marascon\ShoppingCart\Cart\Exceptions\InvalidDiscountException;
+use Marascon\ShoppingCart\Exceptions\InvalidDiscountException;
+use Marascon\ShoppingCart\Exceptions\ProductNotFoundException;
 use Marascon\ShoppingCart\Product\Product;
 use Marascon\ShoppingCart\Product\ProductCategory;
 use Marascon\ShoppingCart\Cart\Cart;
 use Marascon\ShoppingCart\Storage\SessionStorage;
-use Marascon\ShoppingCart\Cart\Exceptions\ProductNotFoundException;
 use Marascon\ShoppingCart\Cart\Discount\PercentageDiscount;
 use Marascon\ShoppingCart\Config\Config;
 
