@@ -20,17 +20,17 @@ as this package is not published on Packagist there is a bit of manual labor inv
 1. Add Repositories to your Composer.json and require the package
 
 ```json
-{
   "repositories": [
     {
       "type": "vcs",
       "url": "https://github.com/marascon/shopping-cart"
     }
-  ],
+  ]
+ ```
+```json
   "require": {
     "marascon/shopping-cart": "^1"
   }
-}
 ```
 
 2. Install the dependencies using Composer:
